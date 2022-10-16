@@ -1,0 +1,163 @@
+/* Colors:
+Dark: #333b42
+Accent: #d5955d */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* temporary style during development */
+section {
+    border: 2px solid grey;
+}
+
+/* universal styles & utility classes */
+
+body {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #333b42;
+}
+
+.padded-sm {
+    padding: 1rem;
+}
+
+.padded {
+    padding: 5%
+}
+
+.padded-lg {
+    padding: 10%;
+}
+
+.bg-dark {
+    background-color: #333b42;
+    color: white;
+}
+
+.min-height-50 {
+    min-height: 50vh;
+}
+
+.min-height-60 {
+    min-height: 60vh;
+}
+
+.min-height-70 {
+    min-height: 70vh;
+}
+
+.min-height-80 {
+    min-height: 80vh;
+}
+
+.min-height-90 {
+    min-height: 90vh;
+}
+
+.min-height-100 {
+    min-height: 100vh;
+}
+
+.bg-dark {
+    background-color: #333b42;
+    color: white;
+}
+
+/* typography */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.175;
+    margin-bottom: 1.2rem;
+}
+h3 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1.175rem;
+}
+
+.white-text {
+    color: white;
+}
+
+.accent-text {
+    color: #d5955d; 
+}
+
+.accent-text-dark {
+    color:#333b42;
+}
+
+.small-text {
+    font-size: 1.5rem;
+}
+
+.medium-text {
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.big-text {
+    font-size: 4.5rem;
+}
+
+.letter-space-1 {
+    letter-spacing: 1px;
+}
+
+.letter-space-2 {
+    letter-spacing: 2px;
+}
+
+.letter-space-3 {
+    letter-spacing: 3px;
+}
+
+.text-shadow-light {
+    text-shadow: 1px 1px 40px #333b42;
+}
+
+/* icon style */
+
+.fa-sharp {
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* header & footer styles */
+header {
+    background-image: url('/assets/the-cookie-co-hero-img.webp');
+    background-size: cover;
+    background-position: 50% 65%;
+}
+
+/* bg-images */
+
+.about-cookie-co {
+    background-image: url('/assets/the-cookie-co-ingredients.webp');
+    background-position: 50% 70%;
+    background-size: cover;
+}
