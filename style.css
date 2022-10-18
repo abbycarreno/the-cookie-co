@@ -8,11 +8,6 @@ Accent: #d5955d */
     box-sizing: border-box;
 }
 
-/* temporary style during development */
-/* section {
-    border: 2px solid grey;
-} */
-
 /* universal styles & utility classes */
 
 body {
@@ -236,3 +231,8 @@ footer a:hover {
     background-position: 50% 70%;
     background-size: cover;
 }
+
+/* gridlex style */
+[class*="grid-"], [class*="grid_"], [class~="grid"] {
+    margin: 0; 
+   }
